@@ -2,7 +2,7 @@
 
 require 'colorize'
 
-class Gameboard
+class GameBoard
   attr_accessor :solution, :guesses, :hints
 
   def initialize
